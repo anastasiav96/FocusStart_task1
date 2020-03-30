@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="{{url_for('static', filename='css/style_form.css')}}">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <h1>Upload your mp3 file:</h1>
+    <title>Upload new File</title>
+</head>
+<div>
+    <form method=post enctype=multipart/form-data>
+        <input type=file name=file>
+        <input type=submit value=Upload>
+    </form>
+</div>
+</html>
+

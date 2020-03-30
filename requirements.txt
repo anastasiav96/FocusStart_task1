@@ -1,0 +1,8 @@
+flask
+gunicorn
+numpy
+librosa
+cffi
+pysoundfile
+matplotlib
+audioread
